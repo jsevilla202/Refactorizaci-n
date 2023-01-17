@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
-		int numero;
+		int numeroUsuario;
 		long numDivisores;
 		Scanner sc = new Scanner(System.in);
 		
-		numero = sc.nextInt();
-		numDivisores = primeDivisors(numero);
+		numeroUsuario = sc.nextInt();
+		numDivisores = primeDivisors(numeroUsuario);
 		
 		System.out.println("Número de divisores: " + numDivisores);
 		sc.close();
